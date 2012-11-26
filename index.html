@@ -1,0 +1,413 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>L'opendata dans tous ses états  | @LiberTIC</title>
+    
+    <meta name="description" content="L'opendata dans tous ses états" />
+    <meta name="author" content="Benoît Simard" />
+
+    
+    <link href="css/impress.css" rel="stylesheet" />
+    <link href="css/prez.css" rel="stylesheet" />
+    
+    <link rel="shortcut icon" href="img/favicon.png" />
+</head>
+
+<body class="impress-not-supported">
+
+<div class="fallback-message">
+    <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+    <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+</div>
+
+<div id="footer">
+  <p>
+    <strong>Autheur:</strong> LiberTIC (@libertic)
+     - 
+    <strong>Licence :</strong><a href="http://creativecommons.org/licenses/by-nc/2.0/" title="by-nc">by-nc</a>
+  </p>
+</div>
+
+<div id="impress">
+
+    <!-- Title Slide-->
+    <div class="step" id="title" data-x="0" data-y="0">
+        <h1>L'opendata dans tous ses états</h1>
+        <h2>PHP Tour Nantes 2012</h2>
+
+          <div class="biblio">
+              <span><strong>Benoît Simard</strong></span>
+              <span>Association LiberTIC</span>
+              <span>Twitter : <a href="twitter.com/libertic" title="LiberTIC sur twitter">@libertic</a></span>
+              <span><a href="http://libertic.wordpress.com" title="Blog de LiberTIC">http://libertic.wordpress.com</a></span>
+          </div>
+    </div>
+
+    <!-- Presentation de LiberTIC -->
+    <div id="libertic" class="step" data-x="0" data-y="1000">
+        <img class="center" src="img/libertic.png" alt="LiberTIC" />
+        <blockquote>Association de loi 1901</blockquote>
+        
+        <h1>Promotion de l'ouverture des données</h1>
+
+        <div class="blocs color">
+          <div class="first">
+            <span>Veille & communication</span>
+          </div>
+          <div class="middle">
+            <span>Sensibilisation</span>
+          </div>
+          <div class="last">
+            <span>Animation</span>
+          </div>
+          <br class="breaker" />
+        </div>
+    </div>
+
+    <!--  Chap. 1: What is opendata ?-->
+    <div id="whatisopendata" class="step" data-x="0" data-y="2000">
+        <h1>L'opendata, c'est quoi ?</h1>
+        <img class="center" width="350px" src="img/interrogation.jpg" alt="Opendata, c'est quoi ?" />
+    </div>
+
+    <!-- definition -->
+    <div class="step" data-x="1000" data-y="2000">
+        <h1>Définition</h1>
+        <blockquote>“A piece of content or data is open if anyone is free to use, reuse, and redistribute it — subject only, at most, to the requirement to attribute and/or share-alike.”
+        </blockquote>
+        <a class="author center" href="http://http://opendefinition.org/" title="opendefinition">http://opendefinition.org/</a>
+    </div>
+
+    <div class="step principes" data-x="2000" data-y="2000">
+      <h1>Les principes</h1>
+      <div class="blocs color">
+           <div class="first">
+            <span>Accessible</span>
+          </div>
+          <div class="middle">
+            <span>Exploitable</span>
+          </div>
+          <div class="last">
+            <span>Réutilisable</span>
+          </div>
+      </div>
+      <br class="breaker" />
+      <div class="blocs">
+           <div class="first">
+            <img src="img/web.jpeg" />
+          </div>
+          <div class="middle">
+            <img src="img/gear.gif" />
+          </div>
+          <div class="last">
+            <img src="img/unlock.png" />
+          </div>
+      </div>
+    </div>
+
+    <div class="step eval" data-x="0" data-y="3000">
+      <h1>Critère d'évaluation</h1>
+      <img src="img/evaluation.jpg" />
+      <!-- http://www.flickr.com/photos/andresrueda/3407340937/sizes/z/in/photostream/ -->
+    </div> 
+
+    <div class="step" data-x="1000" data-y="3000">
+      <h1>Complète</h1>
+      <img width="100%" src="img/complete.jpg" />
+      <!--
+      <div>
+        <div><p>Toutes les données sont mises à disposition</p></div><br/>
+        <div><p>A l'exception des données qui sont sujettes à des limitations légales concernant la vie privée,la sécurité, ...</p></div><br/>
+        <div><p>Si elles existent les métadonnées sont également mises àdisposition</p></div>
+      </div>
+      -->
+    </div>
+
+    <div class="step" data-x="2000" data-y="3000">
+      <h1>Primaire</h1>
+      <img width="100%" src="img/primaire.jpg" />
+      <!--
+      <div>
+        Les données sont telles que collectées à la source Elle sont la plus grande granularité possible et ne se présentent pas sous des formes agrégées ou modifiées
+      </div>
+      -->
+    </div>
+
+    <div class="step" data-x="3000" data-y="3000">
+      <h1>Opportune</h1>
+      <img width="100%" class="center" src="img/opportune.jpg" />
+      <!-- http://www.flickr.com/photos/ar-no/5174830297/sizes/z/in/photostream/ -->
+      <!--
+      <div>
+        Les données sont mises à disposition aussi rapidement que nécessaire pour préserver leur valeur.
+      </div>
+      -->
+    </div>
+
+    <div class="step" data-x="4000" data-y="3000">
+      <h1>Accessible</h1>
+      <img class="center" width="100%" src="img/accessible.jpg" />
+      <!--
+      <div>
+        L'accessibilité des données ne doit pas subir d'entraves tel que le remplissage préalable d'unformulaire. Elle peut êtres implifiée par la mise enplace d'une plateforme unique d'accès aux données,également par lacréation d'API.
+      </div>
+      -->
+    </div>
+
+    <div class="step" data-x="5000" data-y="3000">
+      <h1>Exploitable</h1>
+      <img class="center" width="100%" src="img/exploitable.jpg" />
+      <!-- http://www.flickr.com/photos/mikebaird/3898808431/sizes/l/ -->
+      <!--
+      <div>
+        Les données sont directement exploitables par ordinateur ou lisibles par les machines. Les données sont structurées pour permettre le traitement automatisé.
+      </div>
+      -->
+    </div>
+
+    <div class="step" data-x="6000" data-y="3000">
+      <h1>Réutilisable</h1>
+      <img class="center" width="70%" src="img/reutilisable.png" />
+      <!-- http://www.flickr.com/photos/dddmostra-stencil-experiences/4754822274/sizes/z/in/photostream/  -->
+      <!--
+      <div>
+      </div>
+      -->
+    </div>
+
+    <div class="step" data-x="7000" data-y="3000">
+      <h1>Non discriminatoire</h1>
+      <img class="center" width="100%" src="img/nondiscriminatoire.jpg" />
+      <!-- http://www.flickr.com/photos/stillframe/2367457529/ -->
+      <!--
+      <div>
+        Les données sont non-discriminatoires, c'est à dire qu'elles sont accessibles à qui conque, sans aucune obligation préalable ni inscription.
+      </div>
+      -->
+    </div>
+
+    <div class="step" data-x="8000" data-y="3000">
+      <h1>Non propriétaire</h1>
+      <img class="center" width="90%" src="img/nonproprietaire.jpg" />
+      <!-- -->
+      <!--
+      <div>
+        Les données sont accessibles dans un format sur lequel aucune entité ne dispose d'un contrôle exclusif.
+      </div>
+      -->
+    </div>
+
+    <div class="step" data-x="9000" data-y="3000">
+      <h1>Libre de droit</h1>
+      <img class="center" width="70%" src="img/libre.jpg" />
+      <!-- http://www.flickr.com/photos/framapix/705894740/sizes/m/in/photostream/ -->
+      <!--
+      <div>
+         Libres de Droits
+      </div>
+      -->
+    </div>
+
+    <div class="step" data-x="10000" data-y="3000">
+      <h1>permanent</h1>
+      <img width="100%" src="img/permanent.jpg" />
+      <!-- http://www.flickr.com/photos/dolescum/3567689465/sizes/l/ -->
+      <!--
+      <div>
+        Les données mises en ligne doivent y rester. Un système d'archivage et de suivi des mises à jour facilite la recherche des anciennes versions.
+      </div>
+      -->
+    </div>
+
+    <div class="step" data-x="11000" data-y="3000">
+      <h1>Tarif</h1>
+      <img width="100%" src="img/tarif.jpg" />
+      <!--
+      <div>
+        Les données sont telles que collectées à la source Elle sont la plus grande granularité possible et ne se présentent pas sous des formes agrégées ou modifiées
+      </div>
+      -->
+    </div>
+
+    <div class="step" data-x="0" data-y="4000">
+      <h1>L'ouverture des données publiques</h1>
+    </div>
+
+    <div class="step" data-x="0" data-y="5000">
+      <h1>C'est quoi une donnée publique</h1>
+      <img class="center" width="350px" src="img/interrogation.jpg" alt="C'est quoi une donnée publique ?" />
+    </div>
+
+    <div class="step" data-x="1000" data-y="5000">
+      <h1>Définition</h1>
+      <blockquote>
+        Une donnée publique est une information produite ou reçue « dans le cadre de leur mission de service public, par l’État, les collectivités territoriales ainsi que par les autres personnes de droit public ou les personnes de droit privé chargées d’une telle mission.
+      </blockquote>
+    </div>
+
+    <div class="step" data-x="2000" data-y="5000">
+      <img src="img/donneepublique.png" width="900px"/>
+    </div>
+
+    <div class="step" data-x="3000" data-y="5000">
+      <img src="img/donneepubliquetheme.png" width="900px" />
+    </div>
+
+    <div class="step" data-x="4000" data-y="5000">
+      <h1>Commision d'accès aux documents administratifs</h1>
+      <h2>La loi de 1978</h2>
+      
+      <blockquote>
+        Elle reconnaît à toute personne un droit d'accès et de réutilisation des informations publiques
+      </blockquote>
+      <!-- La commission d’accès aux documents administratifs a été créée par la loi de 1978 qui permettait à tout un chacun de demander à l’administration l’accès à n’importe quel document qu’elle avait en sa possession. La CADA est, pour schématiser, l’organisme chargé de faire appliquer cette loi : si on vous refuse l’accès à un document administratif, vous saisissez la CADA, et celle-ci va émettre un avis pour savoir si le document en lui-même est communicable ou non.
+      Or la loi de 1978 a été modifiée pour permettre, en plus de l’accès, la réutilisation desdits documents administratifs, ce qui est la base de l’opendata.
+      -->
+    </div>
+
+    <div class="step" data-x="5000" data-y="5000">
+      <h1>Données rendues</h1>
+      <ul class="center">
+        <li>Accessibles et réutilisables</li>
+        <li>A des fins commerciales ou non</li>
+        <li>A des coûts qui n'excèdent pas leur coût de production</li>
+      </ul>
+    </div>
+
+    <div class="step secureddata" data-x="6000" data-y="5000">
+      <h1>Les données exclues</h1>
+      <div class="blocs color">
+          <div class="first"><span>Sécurité & Defense</span></div>
+          <div class="middle"><span>Non nominative</span></div>
+          <div class="last"><span>Caractère privé</span></div>
+      </div>
+    </div>
+
+    <div class="step" data-x="0" data-y="6000">
+      <h1>La propagation du mouvement</h1>
+    </div>
+
+    <div class="step" data-x="1000" data-y="6000">
+      <h1>Carte mondiale</h1>
+      <img class="center" src="img/worldmap.png" />
+      <!-- http://www.data.gov/opendatasites -->
+    </div>
+
+    <div class="step" data-x="2000" data-y="6000">
+      <h1>En France</h1>
+      <img class="center" src="img/opendata-map.png" />
+      <!-- Avec evolution sur les années -->
+    </div>
+
+    <div class="step" data-x="3000" data-y="6000">
+      <h1>Le privé aussi !</h1>
+      <img src="img/nike.jpeg" />
+      <img src="img/laposte.jpeg" />
+      <img src="img/orange.jpeg" />
+      <img src="img/bm.jpeg" />
+      <img src="img/sncf.jpeg" />
+    </div>
+
+    <div class="step" data-x="0" data-y="7000">
+      <h1>Pourquoi ouvrir ?</h1>
+       <img class="center" width="350px" src="img/interrogation.jpg" alt="C'est quoi une donnée publique ?" />
+    </div>
+
+    <div class="step" data-x="1000" data-y="7000">
+        <h1>Transparence</h1>
+        <img src="img/transparence.png" width="800px" class="center"/>
+        <blockquote>plus transparence = plus de confiance</blockquote>
+    </div>
+
+    <div class="step" data-x="2000" data-y="7000">
+        <h1>Participation</h1>
+        <!-- http://www.flickr.com/photos/mic_n_2_sugars/564570276/sizes/o/in/photostream/ -->
+        <img src="img/participation.jpg" class="center" width="110%" />
+        <blockquote>plus d'information  = plus de compréhension = plus de participation</blockquote>
+    </div>
+
+    <div class="step" data-x="3000" data-y="7000">
+        <h1>Collaboration</h1>
+        <!-- http://www.flickr.com/photos/bamboo-adventure/3530133273/sizes/o/ -->
+        <img src="img/collaboration.jpg" width="100%" />
+        <blockquote>plus d'échanges = plus d'implications = plus d'améliorations</blockquote>
+    </div>
+
+    <div class="step" data-x="4000" data-y="7000">
+        <h1>Innovation</h1>
+        <img src="img/innovation.jpg" width="100%" />
+    </div>
+
+    <div class="step" data-x="5000" data-y="7000">
+      <h1>Economique</h1>
+      <img src="img/argent.jpg" class="center" width="100%" />
+    </div>
+
+    <div class="step" data-x="0" data-y="8000">
+      <h1>Quelques exemples</h1>
+    </div>
+
+    <div class="step" data-x="1000" data-y="8000">
+      <h1>Datapublica</h1>
+      <img src="img/datapublica.jpeg" class="center"/>
+      <blockquote>Producteur de données</blockquote>
+      <ul>
+        <li>Annuaire des données ouvertes</li>
+        <li>Vends des jeux de données personnalisés</li>
+      </ul>
+    </div>
+
+    <div class="step" data-x="2000" data-y="8000">
+      <h1>Handimap</h1>
+      <blockquote>Calcul d'itinéaire accessible</blockquote>
+      <img src="img/handimap.png" class="center" />
+    </div>
+
+    <div class="step" data-x="3000" data-y="8000">
+      <h1>Exit strategy NYC</h1>
+      <blockquote>Calcul d'itinéaire du métro avec gestion des échanges</blockquote>
+      <img src="img/exitstrategy.jpg" class="center" />
+    </div>
+
+    <div class="step" data-x="4000" data-y="8000">
+      <h1>Fourmi Santé</h1>
+      <blockquote>Comparatif des prix de la santé</blockquote>
+      <img src="img/fourmisante.jpeg" class="center" />
+    </div>
+
+    <div class="step" data-x="5000" data-y="8000">
+      <h1>Budget plateau</h1>
+      <blockquote>Simulateur de budget d'un quartier de Montréal</blockquote>
+      <img src="img/budgetplateau.png" class="center"/>
+    </div>
+
+    <div class="step" data-x="0" data-y="9000">
+      <h1>Vers un gouvernement 2.0</h1>
+    </div>
+
+    <div class="step" data-x="1000" data-y="9000">
+        <img src="img/egov.png" class="center" width="100%"/>
+    </div>
+
+    <div class="step" data-x="0" data-y="10000">
+      <h1>Des questions ?</h1>
+    </div>
+
+    <div class="hint">
+        <p>Use a spacebar or arrow keys to navigate</p>
+    </div>
+
+    <script>
+      if ("ontouchstart" in document.documentElement) { 
+        document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
+      }
+    </script>
+
+    <script src="js/impress.js"></script>
+    <script>impress().init();</script>
+
+  </body>
+</html>
